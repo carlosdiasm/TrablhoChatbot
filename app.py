@@ -268,7 +268,7 @@ def main():
                     except Exception as e:
                         st.sidebar.error(f"Erro de indexação: {e}")
             
-            query = st.text_input("Faça uma pergunta sobre o documento")
+            query = st.text_input("Faça uma pergunta sobre os documentos")
 
             if query:
                 try:
